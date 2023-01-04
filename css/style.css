@@ -1,0 +1,199 @@
+/* Общие стили */
+
+body {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #AE7C78;
+    background: #FFFFFF;
+}
+
+.visually-hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.button {
+    background: #D89999;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+li {
+    list-style-type: none;
+}
+/* Стили для promo */
+
+.promo-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 44px;
+    line-height: 59px;
+    font-weight: 400;
+}
+
+.promo-heading span {
+    font-style: italic;
+}
+
+.promo-text {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* Стили для advantages */
+
+.advantages-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Стили для popular */
+
+.popular-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.popular-slider-list {
+    list-style: none;
+}
+
+.popular-slide-heading {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 29px;
+}
+
+.popular-slide-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.popular-slider-button {
+    background-color: transparent;
+}
+/* Стили для type */
+
+.type-item {
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.type-link {
+    background: rgba(174, 124, 120, 0.6);
+    background-size: cover;
+}
+
+.type-heading {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.type-text {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+/* Стили для sale */
+
+.sale-block {
+    background: #AE7C78;
+}
+
+.sale-heading {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sale-text {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/* Стили для steps */
+
+.steps-heading {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+
+.steps-subheading {
+    font-weight: 500;
+}
+
+/* Стили для reviews */
+
+.reviews {
+    border: 1px solid #AE7C78;
+}
+
+.reviews-heading {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.reviews-item {
+    text-align: center;
+}
+
+.reviews-item cite {
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Стили для map */
+
+.contacts {
+    font-size: 16px;
+    line-height: 20px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    color: #AE7C78;
+}
+
+.contacts-heading {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.contacts dd {
+    font-weight: 500;
+}
+
+/* Стили для page-footer */
+
+.page-footer {
+    background: #AE7C78;
+    color: #FFFFFF;
+}
+
+.footer-nav-link {
+    color: #FFFFFF;
+}
+
