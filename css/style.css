@@ -75,7 +75,7 @@ a:active {
 /* Стили для header */
 
 .page-header {
-    margin-top: 26px;
+    margin-top: 25px;
     padding: 22px 0 21px;
     border-top: 1px solid #AE7C78;
     border-bottom: 1px solid #AE7C78;
@@ -95,11 +95,12 @@ a:active {
     flex-wrap: no-wrap;
     justify-content: space-between;
     padding: 0;
+    margin: 0;
 }
 
 
 .list-item:nth-child(6n + 3) {
-    margin-right: 224px;
+    margin-right: 97px;
 }
 
 /* Стили для promo */
@@ -157,9 +158,9 @@ a:active {
 
 .advantages-list {
     list-style: none;
-    display: flex;
-    align-items: flex-start;
-    column-gap: 49px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4%;
     padding: 0;
     
 }
@@ -170,18 +171,20 @@ a:active {
     
 }
 
+.advantages-image {
+    margin-right: 20px;
+}
+
 .advantages-heading {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
-    margin-left: 20px;
 }
 
 .advantages-text {
-    max-width: 285px;
-    margin: 0 0 0 20px;
+    margin: 0
 }
 
 /* Стили для popular */
@@ -287,7 +290,7 @@ a:active {
 .type-list {
     list-style: none;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     grid-template-rows: 442px;
     padding: 0;
